@@ -1,0 +1,30 @@
+{
+    "name": "extra-demo/php-demo-for-blog",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "minbaby.zhang",
+            "email": "zhangshaomin_1990@126.com"
+        }
+    ],
+    "require": {
+        "php>=": "7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Minbaby\\ExtraDemo\\Blog\\": "./src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Minbaby\\ExtraDemo\\Test\\Blog\\": "./tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
